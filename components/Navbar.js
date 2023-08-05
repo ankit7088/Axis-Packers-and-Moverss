@@ -15,8 +15,8 @@ const Navbar = () => {
   return (
     <>
     <div className='fixed top-0 left-0 right-0 z-50 bg-gray-100 flex h-6 items-center justify-between py-1'>
-      <div className='pl-4 text-orange-500 font-bold flex text-lg'><BiLogoGmail className='animate-pulse text-blue-500 font-bold mr-2 flex text-3xl'/>axispackersmover@gmail.com</div>
-      <div className='pr-4 text-orange-500 font-bold flex text-lg'><FiPhoneCall className='animate-pulse text-blue-500 font-bold mr-2 flex text-2xl my-1'/>+91-9350927345</div>
+      <div className='md:pl-4 text-orange-500 font-medium md:font-bold flex text-xs sm:text-sm md:text-lg'><BiLogoGmail className='animate-pulse text-blue-500 font-bold md:mr-2 flex text-base sm:text-lg md:text-3xl'/>axispackersmover@gmail.com</div>
+      <div className='md:pr-4 text-orange-500 font-medium md:font-bold flex text-xs sm:text-sm md:text-lg'><FiPhoneCall className='animate-pulse text-blue-500  md:font-bold md:mr-2 flex text-sm sm:text-lg md:text-2xl md:my-1'/>+919350927345</div>
     </div>
     <div className='fixed top-6 left-0 right-0 z-50 bg-black flex h-24 items-center'>
      

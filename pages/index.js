@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className='relative'>
       <Head>
-        <title>MAC2023 Homepage</title>
-        <meta name="description" content="Axis Packers and Movers" />
+        <title>Axis Packers and Movers</title>
+        <meta name="Professional Packers and Movers Services | Reliable Moving Company" content="Welcome to Axis Packers and Movers, a trusted and experienced Packers and Movers company offering reliable and efficient moving services. Our skilled team ensures a hassle-free and secure relocation for residential and commercial clients. Contact us now for a seamless moving experience." />
         <link rel="icon" href="/axis.png" />
       </Head>
   <HomeMain/>
