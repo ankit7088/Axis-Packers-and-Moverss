@@ -9,7 +9,7 @@ function Contact() {
        <img className="object-cover object-center h-full w-full grayscale " alt="hero" src="/contactCover.webp"/>
        <h1 className=' p-2 text-white bg-white/10 md:bg-inherit text-2xl md:text-3xl font-semibold absolute md:right-0 md:left-6  right-0 left-0 bottom-0 backdrop-blur-sm '>
         We are <span className='text-orange-500 text-3xl md:text-4xl font-bold'>Axis Packers and Movers</span> <br />
-        <span className='text-lg'>Let's move together. Contact us now!</span>
+        <span className='text-lg'>Let&apos;s move together. Contact us now!</span>
        </h1>
       </div>
     <div className=' my-10'>
