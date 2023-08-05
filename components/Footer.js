@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="text-gray-600 body-font">
   <div className="container px-5 pt-16  mx-auto flex md:items-center lg:items-start lg:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="lg:w-1/3 w-full flex-shrink-0 justify-center mx-auto text-center ">
-      <a className="flex title-font font-medium items-center text-center justify-center text-3xl text-gray-900">
+      <a className="flex title-font font-medium items-center text-center justify-center text-3xl text-gray-900" href='/'>
       <Image src="/axis.webp" alt="Picture of the author" width={100} height={110} className='text-center text-white p-2 ' />
         <span className="ml-3 text-3xl">Axis Packers and Movers</span>
       </a>
@@ -52,16 +52,16 @@ const Footer = () => {
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
         <nav className="list-none mb-10 mt-5">
            <li className="text-gray-600 hover:text-gray-800">
-            <Link href='#'><a className="text-teal-600 inline-block">
+            <Link href='#'><a className="text-teal-600 inline-block" href='about'>
         <FaFacebookF className='text-xl md:text-2xl'/>
         </a></Link>
-        <Link href='#'><a className="ml-3 text-teal-600 inline-block">
+        <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='services'>
           <BsTwitter className='text-xl md:text-2xl'/>
         </a></Link>
-        <Link href='#'><a className="ml-3 text-teal-600 inline-block">
+        <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='gallery'>
           <BsInstagram className='text-xl md:text-2xl'/>
         </a></Link>
-        <Link href='#'><a className="ml-3 text-teal-600 inline-block">
+        <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='contact'>
           <FaLinkedinIn className='text-xl md:text-2xl'/>
         </a></Link>
         </li>
@@ -77,18 +77,18 @@ const Footer = () => {
         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Gurugram</a>
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-        <Link href='#'><a className="text-teal-600">
+        <Link href='#'><a className="text-teal-600" href='about'>
         <FaFacebookF className='text-lg md:text-xl'/>
         </a></Link>
-        <a className="ml-3 text-teal-600">
+        <a className="ml-3 text-teal-600" href='services'>
         <BsTwitter className='text-lg md:text-xl'/>
         </a>
         <Link href='#'>
-        <a className="ml-3 text-teal-600">
+        <a className="ml-3 text-teal-600" href='gallery'>
         <BsInstagram className='text-lg md:text-xl'/>
         </a>
         </Link>
-        <Link href='#'><a className="ml-3 text-teal-600">
+        <Link href='#'><a className="ml-3 text-teal-600" href='contact'>
         <FaLinkedinIn className='text-lg md:text-xl'/>
         </a></Link>
       </span>

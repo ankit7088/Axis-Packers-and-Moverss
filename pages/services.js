@@ -9,7 +9,7 @@ export default function Services() {
        <img className="object-fill object-center w-full grayscale " alt="hero" src="/services.webp"/>
        <h1 className=' p-2 text-white bg-white/10 md:bg-inherit text-2xl md:text-3xl font-semibold absolute md:right-0 md:left-6  right-0 left-0 bottom-0 backdrop-blur-sm '>
         We are <span className='text-orange-500 text-3xl md:text-4xl font-bold'>Axis Packers and Movers</span> <br />
-        <span className='text-lg'>Your Reliable Packers and Movers Partner</span>
+        <span className='text-lg'>Your moving partner. Our services, your peace of mind.</span>
        </h1>
       </div>
       <div className=' my-10'>

@@ -174,33 +174,33 @@ const HomeMain = () => {
       <div className='flex flex-wrap'>
       <div className="relative mb-2 w-1/2">
         <label htmlFor="name" className="leading-7 text-sm text-gray-800 ">Name</label>
-        <input ref={nameRef} type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input ref={nameRef} placeholder='Enter Name' type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2 pl-2">
         <label htmlFor="email" className="leading-7 text-sm text-gray-800">Email</label>
-        <input ref={emailRef} type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input ref={emailRef} placeholder='Enter Email' type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2">
         <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Mobile No.</label>
-        <input ref={subjectRef} type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input ref={subjectRef} placeholder='Enter Mobile No.' type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2 pl-2">
         <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Date of Relocation</label>
-        <input ref={subjectRef} type="date" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input ref={subjectRef}  type="date" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2">
         <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Relocation From</label>
-        <input ref={subjectRef} type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input ref={subjectRef} placeholder='Enter Relocation From' type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2 pl-2">
         <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Relocation To</label>
-        <input ref={subjectRef} type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input ref={subjectRef} placeholder='Enter Relocation To' type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
 
       </div> 
       <div className="relative mb-4">
         <label htmlFor="message" className="leading-7 text-sm text-gray-800">Please mention all items you would like to move?</label>
-        <textarea ref={messageRef} id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        <textarea ref={messageRef} placeholder='Please write number of items which you want to move...' id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
       <button className="text-white bg-teal-600 border-0 py-2 px-6 focus:outline-none hover:bg-teal-700 rounded text-lg">Submit</button>
       </form>

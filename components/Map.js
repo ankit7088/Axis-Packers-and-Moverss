@@ -11,7 +11,7 @@ const Map = () => {
                 <h1 className='title-font text-center font-bold text-3xl sm:text-4xl  text-gray-900 border-b-4 border-blue-500 pb-1 md:pb-2'>Venue</h1>
                 </div>
                   <div className="w-full h-[400px] md:h-[580px] bg-gray-300 rounded-lg overflow-hidden  p-10 flex items-end justify-start relative ">
-                    <iframe width="100%" height="100%" className="absolute inset-0 contrast-125  grayscale-0 brightness-75" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14405.578073488561!2d81.86581189999998!3d25.4918859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x86f1dd47d5f682b0!2sMulti%20Purpose%20Hall!5e0!3m2!1sen!2sin!4v1664891820544!5m2!1sen!2sin" ></iframe>
+                    <iframe width="100%" height="100%" className="absolute inset-0 contrast-125  grayscale-0 brightness-75" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.72023137717!2d76.82493640956784!3d28.423160292849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1691230064957!5m2!1sen!2sin" ></iframe>
                     <div className="bg-white hover:bg-gray-50 relative py-6 rounded shadow-lg ">
                       <div className=" px-6">
                         <h2 className="title-font text-base font-bold text-gray-900 tracking-widest">ADDRESS</h2>
