@@ -200,7 +200,7 @@ const HomeMain = () => {
       </div>
       <div className="relative mb-2 w-1/2 pl-2">
         <label htmlFor="date" className="leading-7 text-sm text-gray-800">Date of Relocation</label>
-        <input ref={dateRef}  type="date" id="date" name="date" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input ref={dateRef}  type="text" id="date" name="date" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2">
         <label htmlFor="relocationFrom" className="leading-7 text-sm text-gray-800">Relocation From</label>

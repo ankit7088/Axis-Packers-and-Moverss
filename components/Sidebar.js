@@ -36,7 +36,7 @@ const Sidebar = ({setIsOpenSidebar}) => {
  initial={{opacity:0,scaleX:3}}
  animate={{opacity:1,scaleX:1}}
  exit={{opacity:0,scaleX:3}}
- transition={{type:'linear',duration:0.2}}
+ transition={{duration:0.2}}
  className='h-full w-[50%] md:w-[70%] backdrop-brightness-50' onClick={()=>setIsOpenSidebar(false)}>
 
  </motion.div>
@@ -44,7 +44,7 @@ const Sidebar = ({setIsOpenSidebar}) => {
      initial={{opacity:0,x:100}}
      animate={{opacity:1,x:0}}
      exit={{opacity:0,x:100}}
-     transition={{type:'linear',duration:0.2}}
+     transition={{duration:0.2}}
      className=' bg-black w-[50%] md:w-[30%] h-full'>
     <motion.div 
     variants={container}
