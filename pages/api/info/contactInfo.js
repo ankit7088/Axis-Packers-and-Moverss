@@ -1,4 +1,4 @@
-import { client } from "../../../lib/sanityClient";
+import { client } from "../../../lib/createClient";
 
 async function handler(req, res) {
   if (req.method !== 'POST') {
