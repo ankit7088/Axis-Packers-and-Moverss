@@ -1,6 +1,6 @@
-import { client } from "../../../lib/sanityClient";
+import { client } from "../../../lib/createClient";
 
-async function handler(req, res) {
+async function newhandler(req, res) {
   if (req.method !== 'POST') {
     return;
   }
@@ -46,4 +46,4 @@ async function handler(req, res) {
   }
 }
 
-export default handler;
+export default newhandler;
