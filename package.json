@@ -11,10 +11,13 @@
   "dependencies": {
     "@fontsource/rubik-maze": "^4.5.0",
     "@mantine/hooks": "^5.5.4",
+    "@sanity/client": "^6.4.4",
+    "@sanity/image-url": "^1.0.2",
     "daisyui": "^2.31.0",
     "framer-motion": "^7.5.1",
     "lottie-react": "^2.3.1",
     "next": "12.3.1",
+    "next-sanity": "^5.2.3",
     "nextjs-progressbar": "^0.0.15",
     "react": "18.2.0",
     "react-dom": "18.2.0",

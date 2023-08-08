@@ -15,8 +15,11 @@ import { MdTouchApp } from "react-icons/md";
 const HomeMain = () => {
   const nameRef = useRef();
   const emailRef = useRef();
-  const subjectRef = useRef();
+  const mobileRef = useRef();
   const messageRef = useRef();
+  const dateRef = useRef();
+  const relocationFromRef = useRef();
+  const relocationToRef = useRef();
   const [loading, setLoading] = useState(false);
 
   // const router = useRouter();
@@ -27,10 +30,14 @@ const HomeMain = () => {
     const enteredName = nameRef.current.value;
     const enteredEmail = emailRef.current.value;
 
-    const enteredSubject = subjectRef.current.value;
+    const enteredMobileNo = mobileRef.current.value;
+    const enteredDate = dateRef.current.value;
+    const enteredRelocationFrom = relocationFromRef.current.value;
+    const enteredRelocationTo = relocationToRef.current.value;
+
     const enteredMessage = messageRef.current.value;
 
-    if(!enteredName || !enteredEmail || !enteredSubject || !enteredMessage){
+    if(!enteredName || !enteredEmail || !enteredMobileNo || !enteredMessage || !enteredDate || !enteredRelocationFrom || !enteredRelocationTo){
       toast.error('Please Fill all Inputs Fields', {
         duration: 4000,
         position: 'top-right',
@@ -49,7 +56,7 @@ const HomeMain = () => {
     });
     return ;
     }
-    if(enteredName.length<2 || enteredSubject.length<2 || enteredMessage.length<2 ){
+    if(enteredName.length<2 || enteredMobileNo.length<2 || enteredMessage.length<2 || enteredRelocationFrom<2 || enteredRelocationTo<2){
       toast.error('Length of all inputs fields must be more than 2 characters', {
         duration: 4000,
         position: 'top-right',
@@ -94,8 +101,11 @@ const HomeMain = () => {
       body: JSON.stringify({
           name: enteredName,
           email: enteredEmail,
-          subject: enteredSubject,
+          mobile: enteredMobileNo,
           message: enteredMessage,
+          date: enteredDate,
+          relocationFrom: enteredRelocationFrom,
+          relocationTo: enteredRelocationTo,
       }),
       headers: {
           'Content-Type': 'application/json',
@@ -152,8 +162,11 @@ const HomeMain = () => {
   }
   nameRef.current.value='';
   emailRef.current.value='';
-  subjectRef.current.value='';
+  mobileRef.current.value='';
   messageRef.current.value='';
+  dateRef.current.value='';
+  relocationFromRef.current.value='';
+  relocationToRef.current.value='';
   return data;
 
   }
@@ -161,6 +174,7 @@ const HomeMain = () => {
 
   return (
  <>
+ <Toaster />
        <div className={`mt-[112px] relative pb-4 ${gradients.homePage}`}>
         {/* <HomeImageGallery/> */}
         <div className='flex md:flex-row flex-col items-center justify-center'>
@@ -181,20 +195,20 @@ const HomeMain = () => {
         <input ref={emailRef} placeholder='Enter Email' type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2">
-        <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Mobile No.</label>
-        <input ref={subjectRef} placeholder='Enter Mobile No.' type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <label htmlFor="mobileNo" className="leading-7 text-sm text-gray-800">Mobile No.</label>
+        <input ref={mobileRef} placeholder='Enter Mobile No.' type="text" id="mobileNo" name="mobileNo" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2 pl-2">
-        <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Date of Relocation</label>
-        <input ref={subjectRef}  type="date" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <label htmlFor="date" className="leading-7 text-sm text-gray-800">Date of Relocation</label>
+        <input ref={dateRef}  type="date" id="date" name="date" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2">
-        <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Relocation From</label>
-        <input ref={subjectRef} placeholder='Enter Relocation From' type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <label htmlFor="relocationFrom" className="leading-7 text-sm text-gray-800">Relocation From</label>
+        <input ref={relocationFromRef} placeholder='Enter Relocation From' type="text" id="relocationFrom" name="relocationFrom" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-2 w-1/2 pl-2">
-        <label htmlFor="subject" className="leading-7 text-sm text-gray-800">Relocation To</label>
-        <input ref={subjectRef} placeholder='Enter Relocation To' type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <label htmlFor="relocationTo" className="leading-7 text-sm text-gray-800">Relocation To</label>
+        <input ref={relocationToRef} placeholder='Enter Relocation To' type="text" id="relocationTo" name="relocationTo" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
 
       </div> 

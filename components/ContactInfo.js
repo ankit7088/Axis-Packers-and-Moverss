@@ -80,7 +80,7 @@ export default function ContactInfo() {
     return ;
     }
 
-    const response = await fetch('/api/info/contactInfo', {
+    const response = await fetch('/api/info/feedback', {
       method: 'POST',
       body: JSON.stringify({
           name: enteredName,
