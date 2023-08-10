@@ -10,7 +10,7 @@ export default function Home() {
         <title>Axis Packers and Movers</title>
         <meta name="Professional Packers and Movers Services | Reliable Moving Company" content="Welcome to Axis Packers and Movers, a trusted and experienced Packers and Movers company offering reliable and efficient moving services. Our skilled team ensures a hassle-free and secure relocation for residential and commercial clients. Contact us now for a seamless moving experience." />
         <meta name="google-site-verification" content="so2cK1xxu03nhx9kdXOkG9vQ-GhYsoqRUJCYz9n59mY" />
-        <link rel="icon" href="/axis.png" />
+        <link rel="icon" href="/axis_logo.png" />
         
       </Head>
   <HomeMain/>

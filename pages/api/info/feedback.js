@@ -44,6 +44,7 @@ async function newhandler(req, res) {
       res.status(200).json({userData:response ,successMessage: "Your message has been sent. Thank you!" });
      
   }
+  
 }
 
 export default newhandler;
