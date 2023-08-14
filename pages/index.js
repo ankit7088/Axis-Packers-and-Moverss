@@ -5,8 +5,7 @@ import HomeMain from '../components/HomeMain'
 
 export default function Home() {
   return (
-    // <html lang="en">
-      <div className='relative' lang="en">
+      <div className='relative' >
       <Head>
         <title>Axis Packers and Movers in Gurugram</title>
         <meta name="description" content="Welcome to Axis Packers and Movers Gurugram, a trusted and experienced Packers and Movers company offering reliable and efficient moving services in gurugram. Our skilled team ensures a hassle-free and secure relocation for residential and commercial clients. Contact us now for a seamless moving experience." />
@@ -17,6 +16,5 @@ export default function Home() {
       </Head>
   <HomeMain/>
     </div>
-    // </html>
   )
 }
