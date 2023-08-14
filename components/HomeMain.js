@@ -215,7 +215,7 @@ const HomeMain = () => {
                 <label htmlFor="message" className="leading-7 text-sm text-gray-800">Please mention all items you would like to move?</label>
                 <textarea ref={messageRef} placeholder='Please write number of items which you want to move...' id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
               </div>
-              <button className="text-white bg-teal-600 border-0 py-2 px-6 focus:outline-none hover:bg-teal-700 rounded text-lg">Submit</button>
+              <button className="text-white bg-teal-700 border-0 py-2 px-6 focus:outline-none hover:bg-teal-800 rounded text-xl font-medium">Submit</button>
             </form>
           </div>
         </div>
