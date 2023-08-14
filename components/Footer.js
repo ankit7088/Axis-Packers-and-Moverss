@@ -23,16 +23,20 @@ const Footer = () => {
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
         <nav className="list-none mb-10 mt-3">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">About</a>
+            {/* <a className="text-gray-600 hover:text-gray-800">About</a> */}
+            <Link className="text-gray-600 hover:text-gray-800" href="/about">About</Link>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Services</a>
+            {/* <a className="text-gray-600 hover:text-gray-800">Services</a> */}
+            <Link className="text-gray-600 hover:text-gray-800" href="/services">Services</Link>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Gallery</a>
+            {/* <a className="text-gray-600 hover:text-gray-800">Gallery</a> */}
+            <Link className="text-gray-600 hover:text-gray-800" href="/gallery">Gallery</Link>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Contact</a>
+            {/* <a className="text-gray-600 hover:text-gray-800">Contact</a> */}
+            <Link className="text-gray-600 hover:text-gray-800" href="/contact">Contact</Link>
           </li> 
         </nav>
       </div>
@@ -50,12 +54,18 @@ const Footer = () => {
       <div className=" lg:w-1/3 w-full px-4 py-2">
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Our Social Networks</h2>
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
-        <nav className="list-none mb-10 mt-5">
-           <li className="text-gray-600 hover:text-gray-800">
-            <Link href='#'><a className="text-teal-600 inline-block" href='about'>
-        <FaFacebookF className='text-xl md:text-2xl'/>
-        </a></Link>
-        <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='services'>
+        <nav className="list-none mb-10 mt-5 flex justify-center lg:justify-normal">
+           <li className="text-gray-600 hover:text-gray-800 ">
+            <Link href='https://www.facebook.com/axispackermovers' className="text-teal-600 ">
+        <FaFacebookF className='text-xl md:text-2xl inline-block text-teal-600 ml-3 cursor-pointer'/>
+        </Link>
+            <Link href='https://www.facebook.com/axispackermovers' className="text-teal-600 ">
+        <BsInstagram className='text-xl md:text-2xl inline-block text-teal-600 ml-3 cursor-pointer'/>
+        </Link>
+            <Link href='https://www.facebook.com/axispackermovers' className="text-teal-600 ">
+        <FaLinkedinIn className='text-xl md:text-2xl inline-block text-teal-600 ml-3 cursor-pointer'/>
+        </Link>
+        {/* <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='services'>
           <BsTwitter className='text-xl md:text-2xl'/>
         </a></Link>
         <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='gallery'>
@@ -63,7 +73,7 @@ const Footer = () => {
         </a></Link>
         <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='contact'>
           <FaLinkedinIn className='text-xl md:text-2xl'/>
-        </a></Link>
+        </a></Link> */}
         </li>
           
         </nav>
@@ -74,9 +84,9 @@ const Footer = () => {
   <div className="bg-gray-100">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 Axis Packers and Movers —
-        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Gurugram</a>
+        <a href="https://www.facebook.com/axispackermovers" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Gurugram</a>
       </p>
-      <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+      {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <Link href='#'><a className="text-teal-600" href='about'>
         <FaFacebookF className='text-lg md:text-xl'/>
         </a></Link>
@@ -91,7 +101,7 @@ const Footer = () => {
         <Link href='#'><a className="ml-3 text-teal-600" href='contact'>
         <FaLinkedinIn className='text-lg md:text-xl'/>
         </a></Link>
-      </span>
+      </span> */}
     </div>
   </div>
 </footer>

@@ -2,7 +2,6 @@ import React from 'react'
 import {IoMdClose} from "react-icons/io"
 import {useRouter} from 'next/router'
 import { motion } from "framer-motion"
-import Link from "next/link"
 import classes from "../styles/sidebar.module.css"
 
 

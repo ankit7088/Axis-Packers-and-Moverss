@@ -3,8 +3,6 @@ import React from 'react'
 const Map = () => {
   return (
     <>
-
-
     <section id='venue' className="text-gray-600 body-font relative mx-6 pb-6 md:pb-16 ">
                 <div className=" px-0 sm:px-5 py-2 mt-8 md:mx-4 lg:mx-12 ">
                 <div className='mt-8 pb-4 flex flex-col items-center justify-center'>

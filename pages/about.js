@@ -1,10 +1,23 @@
+import Head from 'next/head'
 import React from 'react'
+import Image from 'next/image'
 
 export default function About() {
   return (
     <>
+    <Head>
+        <title>About Us - Axis Packers and Movers in Gurugram</title>
+        <meta
+          name="description"
+          content="Learn about Axis Packers and Movers in Gurugram (Gurgaon). Discover our history, values, expertise, and commitment to providing top-quality packing and moving services."
+        />
+        <meta
+          name="keywords"
+          content="Axis Packers and Movers, Gurugram, Gurgaon, about us, history, values, packing, moving services"
+        />
+      </Head>
     <div className="relative mt-28 h-[80vh] flex ">
-       <img className="object-cover object-center h-full w-full grayscale " alt="hero" src="/aboutCover.webp"/>
+       <Image className="object-cover object-center h-full w-full grayscale " layout='fill' alt="hero" src="/aboutCover.webp"/>
        <h1 className=' p-2 text-white bg-white/10 md:bg-inherit text-2xl md:text-3xl font-semibold absolute md:right-0 md:left-6  right-0 left-0 bottom-0 backdrop-blur-sm '>
         We are <span className='text-orange-500 text-3xl md:text-4xl font-bold'>Axis Packers and Movers</span> <br />
         <span className='text-lg'>Your Reliable Packers and Movers Partner</span>
@@ -45,7 +58,7 @@ export default function About() {
     </div>
     
     <div className="w-full md:w-1/2 lg:w-[40%] bg-red-100">
-      <img className="object-cover object-center" alt="hero" src="/companyImage_2.webp"/>
+      <Image className="object-cover object-center" alt="hero" width={900} height={600} src="/companyImage_2.webp"/>
     </div>
   </div>
 </section>

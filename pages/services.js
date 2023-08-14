@@ -1,12 +1,25 @@
 import React from 'react'
 import LeftImageCard from '../components/LeftImageCard'
 import RightImageCard from '../components/RightImageCard'
+import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Services() {
   return (
     <>
+    <Head>
+        <title>Services - Axis Packers and Movers in Gurugram</title>
+        <meta
+          name="description"
+          content="Explore our comprehensive services offered by Axis Packers and Movers in Gurugram (Gurgaon). We provide expert packing, secure transportation, and hassle-free moving solutions."
+        />
+        <meta
+          name="keywords"
+          content="Axis Packers and Movers, Gurugram, Gurgaon, services, packing, transportation, moving solutions"
+        />
+      </Head>
     <div className="relative mt-28 h-[80vh] flex ">
-       <img className="object-fill object-center w-full grayscale " alt="hero" src="/services.webp"/>
+       <Image className="object-fill object-center w-full grayscale " layout='fill' alt="hero" src="/services.webp"/>
        <h1 className=' p-2 text-white bg-white/10 md:bg-inherit text-2xl md:text-3xl font-semibold absolute md:right-0 md:left-6  right-0 left-0 bottom-0 backdrop-blur-sm '>
         We are <span className='text-orange-500 text-3xl md:text-4xl font-bold'>Axis Packers and Movers</span> <br />
         <span className='text-lg'>Your moving partner. Our services, your peace of mind.</span>
