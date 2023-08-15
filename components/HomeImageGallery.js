@@ -21,16 +21,16 @@ export default function HomeImageGallery() {
         
         navigation={false}
         modules={[Autoplay]}
-        className="mySwiper bg-stone-500 text-center w-full h-[60vh] md:h-full"
+        className="mySwiper bg-stone-100 text-center w-full h-[60vh] md:h-full"
       >
        
         <SwiperSlide>
-        <div className="w-full h-full overflow-hidden">
+        <div className=" w-full h-full overflow-hidden">
 <motion.img 
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-alt="Home Relocation Image" src="/homeRelocation.webp" className="w-full h-full brightness-75  object-cover"/>
+alt="Home Relocation Image" src="/homeRelocation.webp" className="scale w-full h-full brightness-75  object-cover md:object-contain"/>
 
 </div> 
        
@@ -41,7 +41,7 @@ alt="Home Relocation Image" src="/homeRelocation.webp" className="w-full h-full 
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-alt="company Image" src="/companyImage.webp" className="scale w-full h-full brightness-75  object-cover"/>
+alt="company Image" src="/companyImage.webp" className="scale w-full h-full brightness-75  object-cover md:object-contain"/>
 
 </div> 
        
@@ -52,7 +52,7 @@ alt="company Image" src="/companyImage.webp" className="scale w-full h-full brig
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-alt="Commercial Image" src="/commercial.webp" className="scale w-full h-full brightness-75  object-cover"/>
+alt="Commercial Image" src="/commercial.webp" className="scale w-full h-full brightness-75  object-cover md:object-contain"/>
 
 </div> 
        

@@ -12,7 +12,7 @@ const Footer = () => {
   <div className="container px-5 pt-16  mx-auto flex md:items-center lg:items-start lg:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="lg:w-1/3 w-full flex-shrink-0 justify-center mx-auto text-center ">
       <p className="flex title-font font-medium items-center text-center justify-center text-3xl text-gray-900">
-      <Image src="/axis.webp" alt="Picture of the author" width={100} height={110} className='text-center text-white p-2 ' />
+      <Image src="/AxisPackersandPackersLogo.webp" alt="Picture of the author" width={140} height={105} className='text-center text-white p-2 ' />
         <span className="ml-3 text-3xl">Axis Packers and Movers</span>
       </p>
       <p className="mt-2 text-sm text-center m-auto text-gray-500">Your Reliable Packers and Movers Partner</p>
