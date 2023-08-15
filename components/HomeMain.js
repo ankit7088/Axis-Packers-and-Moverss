@@ -6,12 +6,13 @@ import Link from 'next/link';
 import { BsArrowRight } from 'react-icons/bs';
 import { useRef, useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import transport from "../lottieFiles/transport.json"
+// import transport from "../lottieFiles/transport.json"
 import vehicle from "../lottieFiles/vehicle.json"
 import { IoMdTrain } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
 import { MdTouchApp } from "react-icons/md";
 import Image from 'next/image'
+import HomeImageGallery from './HomeImageGallery';
 
 const HomeMain = () => {
   const nameRef = useRef();
@@ -176,10 +177,11 @@ const HomeMain = () => {
   return (
     <>
       <Toaster />
-      <div className={`mt-[112px] relative pb-4 ${gradients.homePage}`}>
+      <div className={`mt-[110px] relative pb-4 ${gradients.homePage}`}>
         <div className='flex md:flex-row flex-col items-center justify-center'>
-          <div className='md:w-1/2 h-full object-cover ml-2'>
-            <Lottie animationData={transport} loop={true} />
+          <div className='md:w-1/2 w-full h-full object-cover '>
+            {/* <Lottie animationData={transport} loop={true} /> */}
+            <HomeImageGallery/>
           </div>
           <div className='md:w-1/2  md:pt-8 md:mx-4 mx-2 md:px-4'>
             <h2 className="text-black text-center text-2xl md:text-3xl mb-1 mt-6 md:mt-0 font-medium title-font">Get a Free Moving Quote</h2>
