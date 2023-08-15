@@ -16,7 +16,7 @@ const RightImageCard = ({title,image,description}) => {
                     <p className="mb-8 leading-relaxed">{description}</p>
                     <div className="flex justify-center">
                     <Link href='/'>
-                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Read More</button>
+                    <button className="inline-flex text-white bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg font-medium">Read More</button>
                     </Link>
                     </div>
                     </div>
