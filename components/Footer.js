@@ -19,7 +19,7 @@ const Footer = () => {
     </div>
     <div className="flex-grow flex flex-wrap md:pl-12 lg:mt-0 mt-10 lg:text-left text-center">
     <div className=" lg:w-1/3 w-full px-4 py-2">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Useful Links</h2>
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 ">Useful Links</h2>
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
         <nav className="list-none mb-10 mt-3">
           <p>
@@ -41,7 +41,7 @@ const Footer = () => {
         </nav>
       </div>
       <div className="lg:w-1/3 w-full px-4 py-2">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Axis Packers and Movers</h2>
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Office - Gurugram</h2>
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
         <nav className="list-none mb-10 mt-3">
            <p className="text-gray-600 hover:text-gray-800">Shop 3, Dhani Shankar wali road</p>
@@ -51,7 +51,18 @@ const Footer = () => {
           
         </nav>
       </div>
-      <div className=" lg:w-1/3 w-full px-4 py-2">
+      <div className="lg:w-1/3 w-full px-4 py-2">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Office - Bengaluru</h2>
+        <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
+        <nav className="list-none mb-10 mt-3">
+           <p className="text-gray-600 hover:text-gray-800">Survey No. 65/2</p>
+            <p className="text-gray-600 hover:text-gray-800">Situated At Vittasandra Village</p>
+            <p className="text-gray-600 hover:text-gray-800">Begur Road, Bengaluru</p>
+            <p className="text-gray-600 hover:text-gray-800">Karnataka - 560100</p>
+          
+        </nav>
+      </div>
+      {/* <div className=" lg:w-1/3 w-full px-4 py-2">
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Our Social Networks</h2>
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
         <nav className="list-none mb-10 mt-5 flex justify-center lg:justify-normal">
@@ -65,7 +76,7 @@ const Footer = () => {
             <Link href='https://www.facebook.com/axispackermovers' className="text-teal-600 ">
         <FaLinkedinIn className='text-xl md:text-2xl inline-block text-teal-600 ml-3 cursor-pointer'/>
         </Link>
-        {/* <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='services'>
+        <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='services'>
           <BsTwitter className='text-xl md:text-2xl'/>
         </a></Link>
         <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='gallery'>
@@ -73,35 +84,30 @@ const Footer = () => {
         </a></Link>
         <Link href='#'><a className="ml-3 text-teal-600 inline-block" href='contact'>
           <FaLinkedinIn className='text-xl md:text-2xl'/>
-        </a></Link> */}
+        </a></Link>
         </p>
           
         </nav>
-      </div>
+      </div> */}
     
     </div>
   </div>
   <div className="bg-gray-50">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p className="text-gray-800 text-base text-center sm:text-left">© 2023 Axis Packers and Movers —
-        <a href="https://www.facebook.com/axispackermovers" rel="noopener noreferrer" className="text-gray-800 ml-1" target="_blank">@Gurugram</a>
+        <a href="https://www.facebook.com/axispackermovers" rel="noopener noreferrer" className="text-gray-800 ml-1" target="_blank">@Gurugram and Bengaluru</a>
       </p>
-      {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-        <Link href='#'><a className="text-teal-600" href='about'>
+      <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <Link className="text-teal-600" href='https://www.facebook.com/axispackermovers'>
         <FaFacebookF className='text-lg md:text-xl'/>
-        </a></Link>
-        <a className="ml-3 text-teal-600" href='services'>
-        <BsTwitter className='text-lg md:text-xl'/>
-        </a>
-        <Link href='#'>
-        <a className="ml-3 text-teal-600" href='gallery'>
-        <BsInstagram className='text-lg md:text-xl'/>
-        </a>
         </Link>
-        <Link href='#'><a className="ml-3 text-teal-600" href='contact'>
+        <Link className="ml-5 text-teal-600" href='https://www.facebook.com/axispackermovers'>
+        <BsInstagram className='text-lg md:text-xl'/>
+        </Link>
+        <Link className="ml-5 text-teal-600" href='https://www.facebook.com/axispackermovers'>
         <FaLinkedinIn className='text-lg md:text-xl'/>
-        </a></Link>
-      </span> */}
+        </Link>
+      </span>
     </div>
   </div>
 </footer>

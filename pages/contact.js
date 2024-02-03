@@ -2,6 +2,7 @@ import React from 'react'
 import ContactInfo from '../components/ContactInfo'
 import Head from 'next/head'
 import Image from 'next/image'
+import gradients from "../styles/customGradient.module.css";
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
           content="Axis Packers and Movers, Gurugram, Gurgaon, contact, get in touch, moving services"
         />
       </Head>
-    <div>
+    <div className={`${gradients.homePage}`}>
     <div className="relative mt-28 h-[60vh] flex ">
        <Image className="object-cover object-center h-full w-full grayscale " layout='fill' alt="hero" src="/contactCover.webp"/>
        <h1 className=' p-2 text-white bg-white/10 md:bg-inherit text-2xl md:text-3xl font-semibold absolute md:right-0 md:left-6  right-0 left-0 bottom-0 backdrop-blur-sm '>

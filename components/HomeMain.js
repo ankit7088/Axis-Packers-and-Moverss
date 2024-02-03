@@ -242,10 +242,10 @@ const HomeMain = () => {
                 <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Home Relocation</h2>
                 <p className="leading-relaxed px-6 md:px-12 text-center  text-lg">Moving to a new home is an exciting milestone, but it can also be a daunting task. At Axis  packers and movers, we understand the emotional and logistical challenges of home relocation, and that&apos;s why we are here to make your move a seamless and stress-free experience.Our experienced team of professionals takes pride in handling your household goods and personal belongings with utmost care and attention. We ensure every step is executed with precision and efficiency.</p>
                 <div className="flex items-center flex-wrap mt-2 md:mt-4 justify-center">
-                  <Link href='/'>
-                    <a className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <Link href='/' className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0" >
+                    Read More
                       <BsArrowRight className='ml-3' />
-                    </a>
+  
                   </Link>
                 </div>
               </div>
@@ -258,10 +258,10 @@ const HomeMain = () => {
                 <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Vehicle Transportation</h2>
                 <p className="leading-relaxed px-6 md:px-12 text-center  text-lg">At Axis  packers and movers, we understand that your vehicle is not just a means of transportation; it&apos;s an invaluable asset that deserves utmost care during the relocation process. Our Vehicle Transportation Services are designed to provide a safe and reliable solution for transporting your cars, motorcycles, or other vehicles to your desired destination.</p>
                 <div className="flex items-center flex-wrap mt-2 md:mt-4 justify-center">
-                  <Link href='/'>
-                    <a className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <Link href='/' className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">
+                    Read More
                       <BsArrowRight className='ml-3' />
-                    </a>
+                    
                   </Link>
                 </div>
               </div>
@@ -274,10 +274,10 @@ const HomeMain = () => {
                 <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Office Relocation</h2>
                 <p className="leading-relaxed px-6 md:px-12 text-center  text-lg">Moving your office to a new location is a significant undertaking that requires meticulous planning, seamless execution, and minimal downtime. At Axis  packers and movers, we understand the importance of a smooth office relocation, and our Office Relocation Services are designed to make the process efficient, organized, and stress-free.</p>
                 <div className="flex items-center flex-wrap mt-2 md:mt-4 justify-center">
-                  <Link href='/'>
-                    <a className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <Link href='/' className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">
+                    Read More
                       <BsArrowRight className='ml-3' />
-                    </a>
+                    
                   </Link>
                 </div>
               </div>
@@ -290,10 +290,10 @@ const HomeMain = () => {
                 <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Warehousing & Storage Services</h2>
                 <p className="leading-relaxed px-6 md:px-12 text-center  text-lg">At Axis  packers and movers, we understand that proper storage solutions are crucial for businesses and individuals during various phases of relocation, renovation, or downsizing. Our Warehousing & Storage Services are designed to provide secure and flexible storage options for your belongings, ensuring they remain safe and well-preserved until you are ready to retrieve them.</p>
                 <div className="flex items-center flex-wrap mt-2 md:mt-4 justify-center">
-                  <Link href='/'>
-                    <a className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <Link href='/' className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">
+                    Read More
                       <BsArrowRight className='ml-3' />
-                    </a>
+                    
                   </Link>
                 </div>
               </div>
@@ -306,10 +306,10 @@ const HomeMain = () => {
                 <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">International Relocation</h2>
                 <p className="leading-relaxed px-6 md:px-12 text-center  text-lg">Embarking on an international move is a significant life event that requires meticulous planning, coordination, and expertise. At Axis  packers and movers, we understand the complexities of international relocation, and our International Relocation Services are designed to make this journey seamless and stress-free for you and your family.</p>
                 <div className="flex items-center flex-wrap mt-2 md:mt-4 justify-center">
-                  <Link href='/'>
-                    <a className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <Link href='/' className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">
+                    Read More
                       <BsArrowRight className='ml-3' />
-                    </a>
+                    
                   </Link>
                 </div>
               </div>
@@ -323,10 +323,10 @@ const HomeMain = () => {
 
                 <p className="leading-relaxed px-6 md:px-12 text-center  text-lg">Moving a commercial or industrial establishment is a complex undertaking that requires careful planning, coordination, and precision. At Axis  packers and movers, our Commercial & Industrial Relocation Services are tailored to meet the unique needs of businesses, offices, factories, and industrial facilities, ensuring a seamless move to your new location.</p>
                 <div className="flex items-center flex-wrap mt-2 md:mt-4 justify-center">
-                  <Link href='/'>
-                    <a className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                  <Link href='/' className="text-teal-600 inline-flex items-center md:mb-2 lg:mb-0">
+                    Read More
                       <BsArrowRight className='ml-3' />
-                    </a>
+                    
                   </Link>
                 </div>
               </div>
